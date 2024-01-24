@@ -1,0 +1,1 @@
+{"name":"Local: F_Bazinga","url":"/home/meraj/Code/Sieve/F_Bazinga.cpp","tests":[{"id":1694788473095,"input":"4\n2\n3\n5\n7","output":"10\n14\n21\n26"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/meraj/Code/Sieve/F_Bazinga.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: AlmostPrime","url":"/home/meraj/Code/Sieve/AlmostPrime.cpp","tests":[{"id":1694670295581,"input":"10","output":"2"},{"id":1694670301892,"input":"21","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/meraj/Code/Sieve/AlmostPrime.cpp","group":"local","local":true}

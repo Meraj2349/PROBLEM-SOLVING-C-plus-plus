@@ -1,0 +1,1 @@
+{"name":"Local: Noldbach_problem","url":"/home/meraj/Code/Sieve/Noldbach_problem.cpp","tests":[{"id":1694631938533,"input":"27 2","output":"YES"},{"id":1694632630892,"input":"45 7","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/meraj/Code/Sieve/Noldbach_problem.cpp","group":"local","local":true}
