@@ -71,15 +71,6 @@ void Segment_sieve(int l,int r)
 int32_t main(){
 
    sieve(100000);
-
-
-//    for (int  i = 0; i < prime_push.size(); i++)
-//    {
-//       cout<<prime_push[i];
-//    }
-   
-
-
     int t;
     cin>>t;
 

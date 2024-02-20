@@ -11,21 +11,35 @@
 #define rep(i,a,b) for (int i=a; i<b; i++)
 #define all(c) c.begin(). c.end ()
 using namespace std;
+//vector<int>dp (100000,-1);
+
+
 
 int factor(int n)
 {
+     
     if(n==0 || n== 1) {return 1;}
 
-    return n*factor(n-1);
+    return  n*factor(n-1);
 
-
+   
 }
+
+
+
 int32_t main()
 {
+    
    int x,y;
    cin>>x>>y;
-
-   cout<< factor(x)<< endl; 
+ 
+if (x > y)
+{
+  
+   cout<<factor(y);
+}
+else
+cout<<factor(x);
    
-   cout<< factor(y)<< endl; 
+   
 }

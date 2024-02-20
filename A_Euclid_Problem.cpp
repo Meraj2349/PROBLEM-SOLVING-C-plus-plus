@@ -40,9 +40,7 @@ int32_t main()
 
     while (cin>>a>>b)
     {
-
         extended_euclid(a,b);
-
         cout<<x<<" "<<y<<" "<<d<<endl;
         /* code */
     }

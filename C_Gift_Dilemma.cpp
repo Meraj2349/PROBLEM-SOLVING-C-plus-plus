@@ -29,14 +29,18 @@ int32_t main()
 
     cin>>x>>y>>z>>p;
 
-    v.pb(x);
-    v.pb(y);
-    v.push_back(z);
+     if(x*3==p) count++;
+      if(y*3==p) count++;
+     if(z*3==p) count++;
+     if(x+y+z==p) count++;
 
-    
-    
-
-    
+     
+      if(2*y+x==p) count++;
+     if(2*z+x==p) count++;
+     if(2*x+y==p) count++;
+     if(2*x+z==p) count++;
+   if(2*y+z==p) count++;
+     if(2*z+y==p) count++;
 
     cout<<"Case "<<sum<<": "<<count<<endl;
       
