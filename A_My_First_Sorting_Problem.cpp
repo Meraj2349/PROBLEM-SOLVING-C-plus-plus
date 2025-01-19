@@ -1,5 +1,3 @@
-
-
 #include<bits/stdc++.h>
 #define mii map<int, int> 
 #define vi vector<int> 
@@ -12,12 +10,22 @@
 using namespace std;
 int32_t main()
 {
-  
-  int n;
-  cin>>n;
-  for (int  i = 0; i < n; i++)
-  {
-    cout<<n;
-  }
-  
+   int t;
+   cin>>t;
+   while (t--)
+   {
+      int n,m;
+      cin>>n>>m;
+
+      if(n > m)
+      {
+        cout<<m<<" "<<n<<endl;
+      }
+      else
+      {
+        cout<<n<<" "<<m<<endl;
+      }
+    /* code */
+   }
+   
 }
